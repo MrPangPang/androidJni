@@ -14,7 +14,7 @@ android {
         externalNativeBuild {
             cmake {
                 cppFlags ""
-                abiFilters 'arm64-v8a','armeabi', "armeabi-v7a","x86","x86_64"
+                abiFilters 'arm64-v8a','armeabi', "armeabi-v7a","x86","x86_64" //NDK17版本之后没有armeabi 需手动配置
             }
         }
     }
